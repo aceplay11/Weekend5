@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:orientation="vertical"
+             tools:context=".fragments.AddNewEmployeeFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <EditText
+            android:id="@+id/etFirstNameInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/enter_first_name"/>
+
+    <EditText
+            android:id="@+id/etLastNameInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/enter_last_name"/>
+
+    <EditText
+            android:id="@+id/etAddressInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/enter_street_address"/>
+
+    <EditText
+            android:id="@+id/etCityInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/enter_city"/>
+
+    <EditText
+            android:id="@+id/etStateInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/enter_state"/>
+
+    <EditText
+            android:id="@+id/etZipInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/enter_zip_code"/>
+
+    <EditText
+            android:id="@+id/etTaxIDInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/enter_tax_id"/>
+
+    <EditText
+            android:id="@+id/etPositionInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/enter_position"/>
+
+    <EditText
+            android:id="@+id/etDepartmentInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/enter_department"/>
+
+    <Button
+            android:id="@+id/btnSubmitEntryToDatabase"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:onClick="onClick"
+            android:text="@string/submit_employee_info"/>
+
+
+
+
+
+
+</LinearLayout>

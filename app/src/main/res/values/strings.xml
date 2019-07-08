@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">Weekend5</string>
+    <string name="title_activity_employee_list">EmployeeListActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+    <string name="filter_employee_list">Filter Employee List</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="enter_last_name">Enter Last Name</string>
+    <string name="enter_first_name">Enter First Name</string>
+    <string name="enter_street_address">Enter Street Address</string>
+    <string name="enter_city">Enter City</string>
+    <string name="enter_state">Enter State</string>
+    <string name="enter_zip_code">Enter Zip Code</string>
+    <string name="enter_tax_id">Enter Tax ID</string>
+    <string name="enter_position">Enter Position</string>
+    <string name="enter_department">Enter Department</string>
+    <string name="submit_employee_info">Submit Employee Info</string>
+    <string name="submit_updated_employee">Submit Updated Employee</string>
+    <string name="add_new_employee">Add New Employee</string>
+    <string name="update_employee">Update Employee</string>
+    <string name="insert">Insert</string>
+    <string name="update">Update</string>
+    <string name="delete">Delete</string>
+    <string name="long_click_to_delete">Long Click to Delete</string>
+    <string name="enter_employee_taxid_to_delete">Enter Employee TaxID To Delete</string>
+    <string name="delete_employee">Delete Employee</string>
+
+</resources>

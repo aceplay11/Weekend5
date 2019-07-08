@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        tools:context=".fragments.DeleteEmployeeFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <EditText
+            android:id="@+id/etDeleteInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toTopOf="@id/btnDeleteByID"
+            android:hint="@string/enter_employee_taxid_to_delete"/>
+    <Button
+            android:id="@+id/btnDeleteByID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onLongClick"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/etDeleteInput"
+            android:hint="@string/long_click_to_delete"/>
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

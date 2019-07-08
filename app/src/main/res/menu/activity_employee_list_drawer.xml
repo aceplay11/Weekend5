@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:showIn="navigation_view">
+
+
+    <item
+            android:id="@+id/nav_home"
+            android:icon="@mipmap/ic_launcher_round"
+            android:title="@string/menu_home"/>
+    <item
+            android:id="@+id/nav_Add_Employee"
+            android:icon="@android:drawable/ic_input_add"
+            android:title="@string/add_new_employee"/>
+    <item
+            android:id="@+id/nav_Update_Employee"
+            android:icon="@android:drawable/arrow_up_float"
+            android:title="@string/update_employee"/>
+    <item
+            android:id="@+id/nav_Delete_Employee"
+            android:icon="@android:drawable/btn_dialog"
+            android:title="@string/delete_employee"/>
+
+
+</menu>
